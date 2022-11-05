@@ -12,4 +12,4 @@ Society of Automotive Engineers (SAE) is one of the premier clubs of CET-Bhubane
 
 “Blue Jay Racing” is the official racing team of SAE CET-B, which has achieved laurels since it’s foundation. Now we have more than 200 active members encompassing many branches namely Mechanical, Electrical and Instrumentation. It recruits fresh members every year and assigns them to a specific sub-system, the students continue their work and research all year long receiving constant help and mentoring from seniors and teachers.
 
-<img src="https://github.com/Subhampreet/SAE-Club/blob/main/sae-main.png" >
+<img src="https://github.com/SAE-OUTR/SAE-webiste/blob/master/assets/SAE-landing.jpeg" >
