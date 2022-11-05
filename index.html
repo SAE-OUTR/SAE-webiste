@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAE-OUTR</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <link rel="icon" href="./assets/SAE_LOGO.png" />
+
+    <script src="./index.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!----------------AOS------------------>
+    <link
+      href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- ---------------GALLERY------------------- -->
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-main">
+        <div class="nav-logo" data-aos="fade-down" data-aos-delay="300">
+          <span>SAE</span> OUTR
+          <p class="nav-tag">RACE | RISE | RULE</p>
+        </div>
+        <ul class="nav-mid">
+          <li>
+            <a
+              href="#home"
+              class="active"
+              data-aos="fade-down"
+              data-aos-delay="500"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a href="#about" data-aos="fade-down" data-aos-delay="600">ABOUT</a>
+          </li>
+          <li>
+            <a href="#achieve" data-aos="fade-down" data-aos-delay="700"
+              >ACHIEVEMENTS</a
+            >
+          </li>
+          <li>
+            <a href="#gallery" data-aos="fade-down" data-aos-delay="800"
+              >GALLERY</a
+            >
+          </li>
+          <li>
+            <a href="#team" data-aos="fade-down" data-aos-delay="900">TEAM</a>
+          </li>
+          <li>
+            <a href="#footer" data-aos="fade-down" data-aos-delay="1000"
+              >CONTACT</a
+            >
+          </li>
+        </ul>
+
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#achieve">ACHIEVEMENTS</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#team">TEAM</a>
+            <a href="#footer">CONTACT</a>
+          </div>
+        </div>
+
+        <span
+          class="res-nav-icon"
+          style="font-size: 30px; cursor: pointer"
+          onclick="openNav()"
+          data-aos="fade-down"
+          data-aos-delay="1100"
+          >&#9776;</span
+        >
+      </div>
+    </nav>
+
+    <!-- ---------------------------HERO-------------------- -->
+    <div class="hero" id="home">
+      <div class="hero-left" data-aos="fade-right" data-aos-delay="700"></div>
+      <div class="hero-number" data-aos="fade-in" data-aos-delay="800">051</div>
+      <div class="hero-body">
+        <h3 data-aos="fade-up" data-aos-delay="800">The</h3>
+        <h1 data-aos="fade-up" data-aos-delay="900">
+          Blue Jay <br /><br />
+          Racing Team
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="1000">
+          We are the BlueJay Racing Team, a group of automobile enthusiasts who
+          work tirelessly to bring our dreams into reality by designing,
+          fabricating and racing vehicles all over India.
+        </p>
+        <div class="hero-explore" data-aos="fade-right" data-aos-delay="1100">
+          <hr />
+          <a href="#about">EXPLORE MORE</a>
+        </div>
+      </div>
+      <div class="hero-social">
+        <a href="https://www.facebook.com/sae.cetbhubaneswar"
+          ><i
+            class="fa fa-facebook"
+            data-aos="fade-left"
+            data-aos-delay="400"
+          ></i
+        ></a>
+        <a href="https://instagram.com/_thebluejayracing"
+          ><i
+            class="fa fa-instagram"
+            data-aos="fade-left"
+            data-aos-delay="500"
+          ></i
+        ></a>
+
+        <!-- <a href="mailto:saebjrt2021@gmail.com"
+          ><i
+            class="fa fa-envelope"
+            data-aos="fade-left"
+            data-aos-delay="600"
+          ></i
+        ></a> -->
+        <a href="https://www.linkedin.com/company/saecetb/mycompany/"
+          ><i
+            class="fa fa-linkedin"
+            data-aos="fade-left"
+            data-aos-delay="700"
+          ></i
+        ></a>
+
+        <a href="https://t.me/joinchat/RRwZLCTOu8cZNW8T"
+          ><i
+            class="fa fa-telegram"
+            data-aos="fade-left"
+            data-aos-delay="800"
+          ></i
+        ></a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat-unit">
+          <h4>MAX SPEED</h4>
+          <h5>60 KMPH</h5>
+        </div>
+        <div class="hero-stat-unit">
+          <h4>ENGINE POWER</h4>
+          <h5>9.46 HP</h5>
+        </div>
+        <div class="hero-stat-unit hero-stat-main">
+          <h4>ENGINE TORQUE</h4>
+          <h5>19.86 Nm</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------------ABOUT ----------------------------- -->
+
+    <div class="about" id="about">
+      <div class="about-body">
+        <div class="about-head">
+          <h1 data-aos="fade-right" data-aos-delay="300">ABOUT US</h1>
+          <h2 data-aos="fade-right" data-aos-delay="400">Know About Us</h2>
+          <hr data-aos="fade-right" data-aos-delay="400" />
+        </div>
+        <div class="about-body-main">
+          <div class="about-left">
+            <p data-aos="fade-up" data-aos-delay="300">
+              <span>SAE International</span>, established in 1905 as the
+              <span>Society of Automotive Engineers</span>, is a U.S based,
+              globally active professional association and standards developing
+              organization for engineering professionals in various industries.
+              Its principal emphasis is placed on transport industries such as
+              <span>automotive, aerospace and commercial vehicles.</span>
+              <br /><br />
+              <span>SAE INDIA</span> is a strategic alliance partner of SAE
+              International registered in India as a non-profit engineering and
+              scientific society dedicated to the advancement of mobility
+              industry in India.
+            </p>
+            <img src="./assets/about-2.jpeg" data-aos="fade-up" />
+          </div>
+          <div class="about-right">
+            <img src="./assets/main.jpeg" data-aos="fade-up" />
+            <p data-aos="fade-up" data-aos-delay="300">
+              <span>Society of Automotive Engineers (SAE)</span> is one of the
+              premier clubs of OUTR-Bhubaneswar. We, as members of SAE OUTR are
+              a group of passionate and dedicated automotive enthusiasts who
+              design, fabricate, manufacture and test ground vehicles.
+              <br /><br />
+              <span>“Blue Jay Racing”</span> is the official racing team of
+              <span>SAE OUTR</span>, which has achieved laurels since it’s
+              foundation. Now we have more than 200 active members encompassing
+              many branches namely Mechanical, Electrical and Instrumentation.
+              It recruits fresh members every year and assigns them to a
+              specific sub-system, the students continue their work and research
+              all year long receiving constant help and mentoring from seniors
+              and teachers.
+            </p>
+            <!-- <button data-aos="fade-up" data-aos-delay="300">
+              <a href="#">KNOW MORE</a>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------ACHIEVEMENTS-------------- -->
+
+    <div class="achieve" id="achieve">
+      <div class="achieve-body">
+        <div class="achieve-head">
+          <h1 data-aos="fade-right" data-aos-delay="300">ACHIEVEMENTS</h1>
+          <h2 data-aos="fade-right" data-aos-delay="400">Our Achievements</h2>
+          <hr data-aos="fade-right" data-aos-delay="400" />
+        </div>
+        <div class="achieve-main"></div>
+      </div>
+    </div>
+
+    <!----------------------- COURSES ------------------------>
+    <div class="team" id="team">
+      <div class="team-body">
+        <div class="team-head">
+          <h1 data-aos="fade-right" data-aos-delay="300">OUR COURSES</h1>
+          <h2 data-aos="fade-right" data-aos-delay="400">
+            Our List of Courses
+          </h2>
+          <hr data-aos="fade-right" data-aos-delay="400" />
+        </div>
+        <div class="course-main"></div>
+      </div>
+    </div>
+
+    <div class="exp-overlay hidden"></div>
+    <section class="courses-modal hidden">
+      <img
+        src="https://images.pexels.com/photos/5186/person-woman-coffee-cup.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="user"
+        class="course-modal-img"
+      />
+      <button class="course-close">⨉</button>
+      <div class="course-modal-main">
+        <div class="course-modal-top">
+          <h3 class="course-modal-name">Hello There</h3>
+        </div>
+        <div class="course-modal-body">
+          <p class="course-modal-p">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+            ipsam architecto quos itaque ipsum excepturi aut. Sequi velit
+            architecto aspernatur repudiandae dolorem exercitationem laboriosam,
+            reiciendis esse perferendis? Nemo culpa repellendus commodi,
+            deleniti voluptatem incidunt modi aliquam inventore tenetur
+            aspernatur assumenda mollitia! Quae in enim molestiae commodi sit ex
+            maiores quis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------GALLERY--------------------- -->
+
+    <div class="gal" id="gallery">
+      <div class="gal-body">
+        <div class="gal-head">
+          <h1 data-aos="fade-right" data-aos-delay="300">GALLERY</h1>
+          <h2 data-aos="fade-right" data-aos-delay="400">
+            Sneak Peak To SAE OUTR
+          </h2>
+          <hr data-aos="fade-right" data-aos-delay="400" />
+        </div>
+
+        <div class="gal-main">
+          <div class="gallery" data-aos="fade-up" data-aos-delay="300"></div>
+
+          <div
+            class="hiddenGallery"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          ></div>
+          <div class="btn-container">
+            <button id="galleryBtn">SHOW MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------Join US--------------------- -->
+
+    <div class="register">
+      <div class="register-body">
+        <div class="register-head">
+          <h1 data-aos="fade-right" data-aos-delay="300">JOIN US</h1>
+          <h2 data-aos="fade-right" data-aos-delay="400">How to Join Us?</h2>
+          <hr data-aos="fade-right" data-aos-delay="400" />
+        </div>
+
+        <div class="register-main">
+          <div class="register-left">
+            <p data-aos="fade-up" data-aos-delay="300">
+              At <span>SAE OUTR</span> you get a hands on practical application
+              of mechanical engineering and get into the details of automobile
+              industry and the basics and advanced study about automobiles.And
+              also a chance to get your research papers published and recognized
+              by <span>SAEINDIA.</span> You Get to learn different designing
+              software like <span>SOLIDWORKS, CATIA etc.</span>
+            </p>
+            <img src="./assets/r8.jpg" data-aos="fade-up" />
+          </div>
+
+          <div class="register-right">
+            <img src="./assets/r7.jpeg" alt="" data-aos="fade-up" />
+            <p data-aos="fade-up" data-aos-delay="300">
+              Events like <span>BAJA and ESI</span> provide great exposure to
+              students as they get to compete with the top colleges of India. It
+              helps to develop management skills as the students themselves deal
+              with companies for sponsorship. Last but not the least, you would
+              learn how to function as a team.
+            </p>
+            <button data-aos="fade-up" data-aos-delay="300">
+              <a href="https://forms.gle/srcDpibwnVA6kCsGA">REGISTER NOW</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------TEAM --------------------- -->
+    <div class="team" id="team">
+      <div class="team-body">
+        <div class="team-head">
+          <h1 data-aos="fade-right" data-aos-delay="300">OUR TEAM</h1>
+          <h2 data-aos="fade-right" data-aos-delay="400">Meet Our Team</h2>
+          <hr data-aos="fade-right" data-aos-delay="400" />
+        </div>
+
+        <div class="team-main" data-aos="fade-up" data-aos-delay="400">
+          <div class="team-m">
+            <img src="./assets/1.Abhishek Biswal-Convenor.jpeg" alt="" />
+            <div class="team-d">
+              <h5>Abhishek Biswal</h5>
+              <h6>Convenor</h6>
+            </div>
+          </div>
+
+          <div class="team-m">
+            <img src="./assets/2.Sarthak Swain-Co-Convenor.jpeg" alt="" />
+            <div class="team-d">
+              <h5>Sarthak Swain</h5>
+              <h6>Co-Convenor</h6>
+            </div>
+          </div>
+
+          <div class="team-m">
+            <img
+              src="./assets/3.Krishnasis Gochayat-Technical Head.jpeg"
+              alt=""
+            />
+            <div class="team-d">
+              <h5>Krishnasis Gochayat</h5>
+              <h6>Technical Head</h6>
+            </div>
+          </div>
+
+          <div class="team-m">
+            <img src="./assets/4.Swati Mohanty-Finance Head.jpeg" alt="" />
+            <div class="team-d">
+              <h5>Swati Mohanty</h5>
+              <h6>Finance Head</h6>
+            </div>
+          </div>
+
+          <div class="team-m">
+            <img src="./assets/5.Ruchira Dash-Social Media Head.jpeg" alt="" />
+            <div class="team-d">
+              <h5>Ruchira Dash</h5>
+              <h6>Social Media Head</h6>
+            </div>
+          </div>
+
+          <div class="team-m">
+            <img
+              src="./assets/6.Kodali Dharmateja-Fabrication Head.jpeg"
+              alt=""
+            />
+            <div class="team-d">
+              <h5>Kodali Dharmateja</h5>
+              <h6>Fabrication Head</h6>
+            </div>
+          </div>
+
+          <div class="team-m">
+            <img
+              src="./assets/7.Janmejaya Parida-Procurement Head.jpeg"
+              alt=""
+            />
+            <div class="team-d">
+              <h5>Janmejaya Parida</h5>
+              <h6>Procurement Head</h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------Founders --------------------- -->
+        <div class="team-founder" id="text">
+          <div class="team-founder-head">
+            <h1 data-aos="fade-right" data-aos-delay="300">FOUNDERS</h1>
+            <h2 data-aos="fade-right" data-aos-delay="400">
+              Meet Our Founders
+            </h2>
+            <hr data-aos="fade-right" data-aos-delay="400" />
+          </div>
+
+          <div class="team-f-body">
+            <div class="team-founder-left">
+              <p>
+                Every journey has a beginning, and our beginning has been
+                nothing short of extraordinary. With sheer passion and
+                dedication in the face of endless hurdles.
+              </p>
+              <img src="./assets/f1.png" alt="" />
+              <h2><span>LATE MR.</span> VISWA RANJAN PATI</h2>
+            </div>
+
+            <div class="team-founder-right">
+              <img src="./assets/f2.jpg" alt="" />
+              <h2><span>MR.</span> NITIN SHASHI AGARWAL</h2>
+              <p>
+                Our dear founders established this club with a vision of never
+                giving up and achieving your dreams. With this motto, we usher
+                into a new era of motorsport and innovation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn-container">
+          <button id="toggle" data-aos="fade-up">MEET OUR FOUNDERS</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experiences -->
+    <div class="achieve" id="achieve">
+      <div class="achieve-body">
+        <div class="achieve-head">
+          <h1 data-aos="fade-right" data-aos-delay="300">EXPERIENCES</h1>
+          <h2 data-aos="fade-right" data-aos-delay="400">Senior Experiences</h2>
+          <hr data-aos="fade-right" data-aos-delay="400" />
+        </div>
+        <div class="experiences">
+          <span class="slide-left">
+            <img
+              src="https://img.icons8.com/ios/344/circled-left-2.png"
+              alt=""
+            />
+          </span>
+          <ul class="exp-main"></ul>
+          <span class="slide-right">
+            <img
+              src="https://img.icons8.com/ios/344/circled-right-2.png"
+              alt=""
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-overlay hidden"></div>
+    <section class="exp-modal hidden">
+      <div class="flex">
+        <img
+          src="https://images.pexels.com/photos/5186/person-woman-coffee-cup.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="user"
+          class="modal-img"
+        />
+        <button class="btn-close">⨉</button>
+      </div>
+      <div class="modal-top">
+        <h3 class="modal-name">Hello There</h3>
+      </div>
+      <div class="modal-body">
+        <p class="modal-p">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+          ipsam architecto quos itaque ipsum excepturi aut. Sequi velit
+          architecto aspernatur repudiandae dolorem exercitationem laboriosam,
+          reiciendis esse perferendis? Nemo culpa repellendus commodi, deleniti
+          voluptatem incidunt modi aliquam inventore tenetur aspernatur
+          assumenda mollitia! Quae in enim molestiae commodi sit ex maiores
+          quis.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-body" id="footer">
+        <div class="footer-left">
+          <h2 data-aos="fade-up" data-aos-delay="300"><span>SAE</span> OUTR</h2>
+          <p data-aos="fade-up" data-aos-delay="400">
+            We welcome you all to take part in this wonderful journey of
+            fulfilling the dream of automobile domination and be part of our
+            rich history, just when it’s been written.
+          </p>
+          <div class="footer-social" data-aos="fade-up" data-aos-delay="500">
+            <a href="https://www.facebook.com/sae.cetbhubaneswar"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a href="https://www.linkedin.com/company/saecetb/mycompany/"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UCcym8ruHe0JnTZ9QTeOMoHA"
+              ><i class="fa fa-youtube"></i
+            ></a>
+            <a href="https://instagram.com/_thebluejayracing"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a href="https://t.me/joinchat/RRwZLCTOu8cZNW8T"
+              ><i class="fa fa-telegram"></i
+            ></a>
+            <a href="https://discord.gg/CnDeMTEFPQ"
+              ><i class="fa fa-dribbble"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-mid">
+          <h2 data-aos="fade-up" data-aos-delay="300">CONTACT US</h2>
+          <p data-aos="fade-up" data-aos-delay="400">
+            If you have any questions or quesries, we will always be happy to
+            help. Feel Free to drop a mail, we will surely get back to you as
+            soon as possible.
+          </p>
+          <button data-aos="fade-up" data-aos-delay="500">
+            <a href="mailto:saebjrt2021@gmail.com">DROP A MAIL</a>
+          </button>
+        </div>
+        <div class="footer-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.574986513498!2d85.77365701474993!3d20.276453986410683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7f9d486f7c3%3A0xde71ead59307dcca!2sCollege%20of%20Engineering%20and%20Technology%2C%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1615141182897!5m2!1sen!2sin"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            class="footer-map"
+          ></iframe>
+        </div>
+      </div>
+    </footer>
+
+    <div class="footer-end">
+      <div class="footer-end-body">
+        <p>
+          &#169; Designed and Developed by Web-Dev Team Spectrum OUTR &hearts;
+        </p>
+      </div>
+    </div>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+
+    <script src="./javascript/observer.js"></script>
+    <script src="./javascript/scroll.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script src="./javascript/gallery.js"></script>
+  </body>
+</html>
