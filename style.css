@@ -36,6 +36,7 @@ button {
 }
 
 body {
+  /* width: 500px; */
   background: var(--bg-color);
   margin: 0px;
   font-family: var(--font1-font-family);
@@ -86,7 +87,7 @@ nav .nav-main .nav-logo span {
 
 nav .nav-main .nav-mid {
   display: flex;
-  width: 44%;
+  width: 60%;
   margin: auto;
   justify-content: space-between;
   font-size: 14px;
@@ -238,8 +239,6 @@ nav .nav-main .nav-mid li:hover {
   background-image: linear-gradient(rgba(26, 23, 23, 0.9), rgba(0, 0, 0, 0.9));
   z-index: 10;
 }
-
-
 
 .hero .hero-body {
   width: 80%;
@@ -573,11 +572,11 @@ nav .nav-main .nav-mid li:hover {
 }
 
 /* courses */
-.course-main{
+.course-main {
   display: flex;
   flex-direction: row;
   grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
-  gap: 30px;  
+  gap: 30px;
 }
 
 .blog-card {
@@ -589,15 +588,11 @@ nav .nav-main .nav-mid li:hover {
   cursor: pointer;
 }
 
-.blog-card img{
+.blog-card img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   border-radius: 8px;
-}
-
-.course-modal-main{
-  padding: 20px;
 }
 
 .courses-modal {
@@ -605,7 +600,7 @@ nav .nav-main .nav-mid li:hover {
   /* flex-direction: column; */
   justify-content: space-around;
   gap: 0.4rem;
-  width: 1000px; 
+  width: 1000px;
   padding: 1.3rem;
   min-height: 250px;
   position: fixed;
@@ -616,7 +611,6 @@ nav .nav-main .nav-mid li:hover {
   border: 1px solid #ddd;
   border-radius: 15px;
 }
-
 
 .courses-modal .flex {
   display: flex;
@@ -630,11 +624,10 @@ nav .nav-main .nav-mid li:hover {
   border-radius: 8px;
 }
 
-.course-modal-p{
+.course-modal-p {
   max-height: 250px;
   overflow-y: auto;
 }
-
 
 .courses-modal .flex button {
   position: absolute;
@@ -693,28 +686,27 @@ nav .nav-main .nav-mid li:hover {
   display: none;
 }
 
-
-@media (max-width: 750px){
-  .course-main{
+@media (max-width: 750px) {
+  .course-main {
     flex-direction: column;
   }
 
-  .blog-card{
+  .blog-card {
     height: 150px;
     margin: 0px;
     width: 100%;
   }
-  .courses-modal{
+  .courses-modal {
     flex-direction: column;
-    width: 400px;
-    left: 10px;
+    width: 350px;
+    left: 20px;
     top: 10%;
   }
   .courses-modal img {
-    max-width: 250px;
+    max-width: 200px;
     margin: auto;
   }
-  .course-modal-p{
+  .course-modal-p {
     max-height: none;
   }
 }
@@ -1005,11 +997,10 @@ nav .nav-main .nav-mid li:hover {
   gap: 10px;
 }
 
-.team .team-body .team-main .team-m img{
+.team .team-body .team-main .team-m img {
   width: 165px;
   border-radius: 4px;
 }
-
 
 .team .team-body .team-main .team-m h5,
 .team .team-body .team-main .team-m h6 {
@@ -1149,7 +1140,6 @@ nav .nav-main .nav-mid li:hover {
   padding: 20px;
   margin: 0px;
   overflow: hidden;
-  width: 100%;
 }
 
 .experiences .content {
@@ -1195,7 +1185,7 @@ nav .nav-main .nav-mid li:hover {
   color: white;
 }
 
-.experiences ul li p {  
+.experiences ul li p {
   position: absolute;
   font-size: 15px;
   left: 40px;
@@ -1234,7 +1224,7 @@ nav .nav-main .nav-mid li:hover {
 .experiences .slide-right {
   position: absolute;
   right: 120px;
-  margin-top: 60px;   
+  margin-top: 60px;
   z-index: 10;
 }
 
@@ -1260,7 +1250,7 @@ nav .nav-main .nav-mid li:hover {
   flex-direction: column;
   justify-content: center;
   gap: 0.4rem;
-  width: 500px; 
+  width: 500px;
   padding: 1.3rem;
   min-height: 250px;
   position: fixed;
@@ -1278,7 +1268,7 @@ nav .nav-main .nav-mid li:hover {
   border-radius: 8px;
 }
 
-.modal-p{
+.modal-p {
   max-height: 250px;
   overflow-y: auto;
 }
@@ -1447,15 +1437,13 @@ footer .footer-body .footer-mid button a {
 }
 
 @media (max-width: 750px) {
-  
-
   .nav .nav-tag {
     visibility: visible;
   }
 
   .hero .hero-number {
     z-index: 11;
-    font-size: 17rem;
+    font-size: 12rem;
     margin-top: 0px;
     top: 15%;
   }
@@ -1472,7 +1460,7 @@ footer .footer-body .footer-mid button a {
   .hero .hero-body h1 {
     margin-bottom: 0px;
     line-height: 1.9rem;
-    font-size: 51px;
+    font-size: 45px;
   }
 
   .hero .hero-body p {
@@ -1549,9 +1537,9 @@ footer .footer-body .footer-mid button a {
   }
 
   .achieve .achieve-body .achieve-head h1 {
-    font-size: 3.2em;
+    font-size: 2.6em;
 
-    margin-bottom: -47px;
+    margin-bottom: -40px;
   }
 
   .achieve .achieve-body .achieve-head h2 {
@@ -1782,6 +1770,7 @@ footer .footer-body .footer-mid button a {
 
   .exp-modal {
     width: 340px;
+    left: 18px;
   }
 
   .exp-modal img {
@@ -1820,6 +1809,14 @@ footer .footer-body .footer-mid button a {
 
   .footer-end p {
     font-size: 10px;
+  }
+
+  .footer-right {
+    width: 100%;
+  }
+
+  .footer-right .footer-map {
+    width: 100%;
   }
 }
 

@@ -141,7 +141,7 @@ $(document).ready(function () {
     $(".modal-p").text(details);
     modal.classList.remove("hidden");
     overlay.classList.remove("hidden");
-    disableScroll();
+    // disableScroll();
   };
 
   const openCourseModal = function () {
