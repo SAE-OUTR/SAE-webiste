@@ -33,4 +33,8 @@ jobs:
       # Moving data to public html
       - name: move data to /public_html
         run: sudo mv * /home/admin/web/saeoutr.in/public_html/
+
+      # Reloading Server
+      - name: Reloading Nginx 
+        run: sudo systemctl reload nginx
         
