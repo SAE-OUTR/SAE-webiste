@@ -30,5 +30,3 @@ jobs:
       - name: Deploy the Push
         run: |
           sudo rm -rf /home/admin/web/saeoutr.in/public_html/*
-          sudo mv * /home/admin/web/saeoutr.in/public_html/
-          sudo systemctl reload nginx
