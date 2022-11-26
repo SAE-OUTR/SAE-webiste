@@ -26,7 +26,11 @@ jobs:
       - name: Run a start
         run: echo Build Started !!
         
-      # Runs a single command using the runners shell
+      # Deleting data space
       - name: Delete /public_html
         run: sudo rm -rf /home/admin/web/saeoutr.in/public_html/*
+
+      # Moving data to public html
+      - name: move data to /public_html
+        run: sudo mv * /home/admin/web/saeoutr.in/public_html/
         
