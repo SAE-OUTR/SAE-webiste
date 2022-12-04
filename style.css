@@ -698,8 +698,8 @@ nav .nav-main .nav-mid li:hover {
   }
   .courses-modal {
     flex-direction: column;
-    width: 350px;
-    left: 20px;
+    width: 85vw;
+    left: 10px;
     top: 10%;
   }
   .courses-modal img {
