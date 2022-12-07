@@ -1214,7 +1214,7 @@ nav .nav-main .nav-mid li:hover {
 
 .experiences .slide-left {
   position: absolute;
-  left: 160px;
+  left: 140px;
   margin-top: 60px;
   z-index: 10;
 }
@@ -1752,11 +1752,11 @@ footer .footer-body .footer-mid button a {
 
   .experiences .slide-left {
     /* margin-left: -7035px; */
-    left: 40px;
+    left: 30px;
   }
 
   .experiences .slide-right {
-    right: 10px;
+    right: 25px;
   }
 
   .experiences ul li p {
