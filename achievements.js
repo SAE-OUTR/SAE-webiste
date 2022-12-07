@@ -25,7 +25,7 @@ export const achievements = [
     id: 4,
     title: "SAE BAJA 2021",
     details:
-      "Qualified for e-BAJA and m-BAJA virtually & secured a rank of AIR 17 in e-BAJA virtuals. Qualified fot the dynamic event in BAJA 2019, 2020, 2021(virtual)",
+      "Qualified for e-BAJA and m-BAJA virtually & secured a rank of AIR 17 in e-BAJA virtuals. Qualified fot the dynamic event in BAJA 2019, 2020, 2021(virtual).",
     date: "April 2021",
   },
   {
