@@ -89,7 +89,7 @@ $(document).ready(function () {
       <li class="">
         <div class="content exp-btn btn-open" style="background-image: url('assets/seniors/${elem.name}.jpg');" data-value="${elem.name}">
         </div>
-        <p>${elem.name}</p>
+        <p class="d-flex justify-center">${elem.name}</p>
       </li>`);
   });
 

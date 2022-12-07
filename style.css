@@ -1137,7 +1137,7 @@ nav .nav-main .nav-mid li:hover {
 /* Experiences */
 
 .experiences {
-  padding: 20px;
+  padding: 30px;
   margin: 0px;
   overflow: hidden;
 }
@@ -1187,9 +1187,7 @@ nav .nav-main .nav-mid li:hover {
 
 .experiences ul li p {
   position: absolute;
-  font-size: 15px;
-  left: 40px;
-  bottom: -35px;
+  bottom: -38px;
 }
 
 .experiences ul li h2 {
