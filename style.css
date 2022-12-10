@@ -1229,7 +1229,7 @@ nav .nav-main .nav-mid li:hover {
 .experiences .slide-left,
 .experiences .slide-right {
   cursor: pointer;
-  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-touch-callout: none; /* iOS Safari  */
   -webkit-user-select: none; /* Chrome/Safari/Opera */
   -khtml-user-select: none; /* Konqueror */
   -moz-user-select: none; /* Firefox */
