@@ -172,7 +172,7 @@ $(document).ready(function () {
   var hidden_gallery_img = $(".hiddenGallery");
   $.ajax({
     method: "GET",
-    url: `https://www.googleapis.com/drive/v3/files?q='1QcJp-yfy8m8KdY_7wTeJyAReTvtQ7-jZ' in parents&key=AIzaSyCC-4JThLZ2lqUXPOvQuTLnL4XfEOLTpA8`,
+    url: `https://www.googleapis.com/drive/v3/files?q='1MuiqPtnyySCo8Avixwu6_2A5Y5Rixq6H' in parents&key=AIzaSyC0l5avnKRvtPv_8PfBnDpN0YB9LFtfv_I`,
     success: function (data) {
       var imgV = 0;
       data.files.forEach((elem) => {
