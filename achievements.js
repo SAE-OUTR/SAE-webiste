@@ -3,7 +3,7 @@ export const achievements = [
     id: 1,
     title: "ESI 2018",
     details:
-      "Enduro Student India is an offroad student design comptition. Secured AIR 51 & AIR 43 in ESI 2018 and 2019 respectively.",
+      "Enduro Student India is an offroad student design competition. Secured AIR 51 & AIR 43 in ESI 2018 and 2019 respectively.",
     date: "February 2018",
   },
   {
@@ -17,7 +17,7 @@ export const achievements = [
     id: 3,
     title: "GO KART 2020",
     details:
-      "Participated in International Go-Kart Championship & team was runnersip overalland first place in Business Presentation.",
+      "Participated in International Go-Kart Championship & team was runnersip overall and first place in Business Presentation.",
     date: "January 2021",
   },
 
