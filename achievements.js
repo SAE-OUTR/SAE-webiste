@@ -10,14 +10,14 @@ export const achievements = [
     id: 2,
     title: "ECO CART 2020",
     details:
-      "Debut year of Eco-Kart received AIR 4 in virtual along with design and inovation award.",
+      "Debut year of Eco-Kart received AIR 4 in virtual along with design and innovation award.",
     date: "March 2020",
   },
   {
     id: 3,
     title: "GO KART 2020",
     details:
-      "Participated in International Go-Kart Championship & team was runnersip overall and first place in Business Presentation.",
+      "Participated in International Go-Kart Championship & team was runners-up overall and first place in Business Presentation.",
     date: "January 2021",
   },
 
